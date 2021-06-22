@@ -1,0 +1,46 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h3 {
+    position: relative;
+    padding: 1.5rem 2rem;
+    color: #fff;
+    border-radius: 10px;
+    background:rgb(33, 102, 136);
+  }
+  
+  h3:after {
+    position: absolute;
+    bottom: -9px;
+    left: 1em;
+    width: 0;
+    height: 0;
+    content: '';
+    border-width: 10px 10px 0 10px;
+    border-style: solid;
+    border-color: rgb(33, 102, 136) transparent transparent transparent;
+  }
+
+  #guide{
+      width: 100%;
+      height: auto;
+  };
+
+footer{
+    border: inset;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#coding-now{
+    background: black;
+    width: 50%;
+    height: auto;
+    padding: 10px 25%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.btn--orange,
+h4 {
+  border-bottom: 3px solid #1A4A43;
+}
